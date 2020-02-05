@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background-color: rgba(222, 226, 248);
+    background-color: rgb(232, 232, 240);
     position: sticky;
     top: 0;
     height: 60px;
@@ -65,7 +65,7 @@
 
 .banner {
     text-align: center;
-    background: rgba(223, 192, 152, 0.746);
+    background: rgba(231, 219, 204, 0.746);
     display: inline-block;
     padding: 2rem;
     border-radius: 5px;
@@ -83,16 +83,16 @@
     padding: 1rem 2.5rem;
     letter-spacing: normal;
     font-size: 1.3rem;
-    background-color: rgba(175, 207, 174, 0.919);
+    background-color: rgb(155, 155, 155);
     color: black;
     cursor: pointer;
     transition: 0.2s linear;
+    border: 1px solid rgba(19, 77, 19, 0.918);
     border-radius: 5px;
 }
 
 .banner-btn:hover {
     background: transparent;
-    font-size: 1.4rem;
 }
 
 
@@ -129,7 +129,7 @@
     position: absolute;
     top: 70%;
     right: 0;
-    background: rgba(42, 163, 38, 0.919);
+    background: rgba(150, 235, 147, 0.919);
     border: none;
     text-transform: uppercase;
     padding: 0.5rem 0.75rem;
@@ -195,7 +195,7 @@
     width: 100%;
     height: 100%;
     overflow: scroll;
-    z-index: 3;
+    z-index: 13;
     background: rgb(231, 226, 221);
     padding: 1.5rem;
     transition: 0.3s linear;
@@ -233,9 +233,9 @@
   .cart-item {
     display: grid;
     align-items: center;
-    grid-template-columns: auto 1fr auto;
-    grid-column-gap: 1.5rem;
-    margin: 1.5rem 0;
+    grid-template-columns:auto 1fr auto;
+    grid-column-gap: 0.5rem;
+    margin: 2.5rem;
   }
 
   .cart-item img {
